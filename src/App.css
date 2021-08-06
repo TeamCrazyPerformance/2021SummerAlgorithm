@@ -1,3 +1,9 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
 .App {
   text-align: center;
 }
