@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: url("./img/background.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: black;
+}
+
+.App-box {
+  width: 50%;
+  height: 70%;
+  background-color: rgb(255 255 255 / 50%);
+  padding: 2rem;
+}
+
+.App-body {
+  font-weight: normal;
+  font-size: calc(10px + 1.3vmin);
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
