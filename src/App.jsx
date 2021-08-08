@@ -40,6 +40,17 @@ function App() {
                     </div>
                 </header>
             </section>
+            <section>
+                <header className="App-header-dark">
+                    <h1 className="White-title">Algorithm Competition 1</h1>
+                    <div className="App-box left-align">
+                        <h5>"세문제만푸는팀" 으로 UCPC에 참가하여 2 solve, 예선 193th의 성적을 거두었습니다.</h5>
+                        <p className="App-body"><strong>세문제만푸는팀</strong> / A번담당(김도은), B번담당(김동원), C번담당(김용래)</p>
+                        <img width="100%" src="https://user-images.githubusercontent.com/28296575/128635084-79ce37e4-2cb0-4fc4-b263-f19018d7a2cb.png" alt="rank"/>
+
+                    </div>
+                </header>
+            </section>
         </div>
     );
 }
