@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import ProblemSolveChart from './component/ProblemSolveChart';
 import './App.css';
 
 function App() {
@@ -33,10 +34,7 @@ function App() {
                     <div className="App-box left-align">
                         <p className="App-body">가장 많은 문제를 푼 사람은 <strong>김도현</strong>이고, <strong>96 문제</strong>를 해결하였습니다.</p>
                         <br/>
-                        <p className="App-body">[2] 임성국 : 81 문제</p>
-                        <p className="App-body">[3] 김용래 : 78 문제</p>
-                        <p className="App-body">[4] 이재원 : 75 문제</p>
-                        <p className="App-body">[5] 김동원 : 65 문제</p>
+                        <ProblemSolveChart/>
                     </div>
                 </header>
             </section>
