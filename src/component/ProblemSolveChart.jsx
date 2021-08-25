@@ -1,5 +1,5 @@
 import React from "react";
-import { Line } from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2';
 import './ProblemSolveChart.css';
 
 const ProblemSolveChart = () => {
@@ -8,10 +8,31 @@ const ProblemSolveChart = () => {
             data={{
                 labels: ['06.24', '07.08', '07.22', '08.05', '08.19', '08.31'],
                 datasets: [{
+                    label: '이재원',
+                    data: [0, 20, 51, 73, 132, 132],
+                    fill: false,
+                    borderColor: 'rgb(124, 150, 77)',
+                    tension: 0.1
+                },
+                {
+                    label: '김동원',
+                    data: [0, 32, 54, 65, 128, 128],
+                    fill: false,
+                    borderColor: 'rgb(163, 54, 88)',
+                    tension: 0.1
+                },
+                {
                     label: '김도현',
-                    data: [0, 42, 68, 95, 100, 100],
+                    data: [0, 42, 68, 95, 115, 115],
                     fill: true,
                     borderColor: 'rgb(75, 192, 192)',
+                    tension: 0.1
+                },
+                {
+                    label: '김용래',
+                    data: [9, 29, 55, 75, 100, 100],
+                    fill: false,
+                    borderColor: 'rgb(230, 126, 34)',
                     tension: 0.1
                 },
                 {
@@ -22,36 +43,15 @@ const ProblemSolveChart = () => {
                     tension: 0.1
                 },
                 {
-                    label: '김용래',
-                    data: [9, 29, 55, 75, 80, 80],
-                    fill: false,
-                    borderColor: 'rgb(230, 126, 34)',
-                    tension: 0.1
-                },
-                {
-                    label: '이재원',
-                    data: [0, 20, 51, 73, 79, 79],
-                    fill: false,
-                    borderColor: 'rgb(124, 150, 77)',
-                    tension: 0.1
-                },
-                {
                     label: '김도은',
-                    data: [3, 31, 57, 70, 75, 75],
+                    data: [3, 31, 57, 70, 76, 76],
                     fill: false,
                     borderColor: 'rgb(190, 120, 184)',
                     tension: 0.1
                 },
                 {
-                    label: '김동원',
-                    data: [0, 32, 54, 65, 70, 70],
-                    fill: false,
-                    borderColor: 'rgb(163, 54, 88)',
-                    tension: 0.1
-                },
-                {
                     label: '이건우',
-                    data: [1, 13, 21, 32, 50, 50],
+                    data: [1, 13, 21, 32, 48, 48],
                     fill: false,
                     borderColor: 'rgb(60, 220, 130)',
                     tension: 0.1
@@ -65,7 +65,7 @@ const ProblemSolveChart = () => {
                 }
                 ]
             }}
-            options={{ maintainAspectRatio: false }}
+            options={{ maintainAspectRatio: true }}
         />
     )
 }

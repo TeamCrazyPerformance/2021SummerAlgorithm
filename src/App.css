@@ -26,7 +26,6 @@ body {
 }
 
 .App-header-dark {
-  background-color: #064058;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,8 +49,14 @@ body {
   margin: 3px;
 }
 
+.small-body {
+  font-weight: normal;
+  font-size: calc(10px + 0.6vmin);
+  margin: 3px;
+}
+
 .White-title {
-  color: #eeeeee;
+  color: #777777;
   font-weight: bold;
   font-size: calc(10px + 6vmin);
 }
@@ -60,13 +65,10 @@ body {
   text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-solved {
+  background-image: url("https://user-images.githubusercontent.com/28296575/130800829-79965293-3511-4ada-bda5-0ad5d054cff4.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
 h5 {
@@ -75,4 +77,17 @@ h5 {
 
 img {
   margin-top: 1rem;
+}
+
+.fade-in {
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
