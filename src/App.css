@@ -71,6 +71,12 @@ body {
   background-position: right center;
 }
 
+.bg-company {
+  background-image: url("https://user-images.githubusercontent.com/28296575/131001985-5ef33510-1723-40f9-8288-f34d820cdaad.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h5 {
   margin: 0;
 }

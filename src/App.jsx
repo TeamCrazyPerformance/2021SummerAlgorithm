@@ -58,6 +58,17 @@ function App() {
                     </div>
                 </header>
             </section>
+            <section>
+                <header className="App-header-dark bg-company">
+                    <h1 className="White-title">Coding Test</h1>
+                    <div className="App-box left-align">
+                        <p className="App-body">기업에서 주관하는 다양한 <strong>코딩 테스트</strong>에 참여하였습니다.</p>
+                        <p className="App-body">좋은 성적으로 코딩 테스트를 통과하신 모든 분들 축하드립니다!</p>
+                        <p className="small-body">- 네이버웹툰, 토스, 와디즈, 올리브영 등</p>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    </div>
+                </header>
+            </section>
         </div>
     );
 }
