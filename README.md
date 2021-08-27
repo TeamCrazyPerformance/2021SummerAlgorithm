@@ -1,6 +1,6 @@
 # 2021SummerAlgorithm
 
-![tcp_2021_summer_algorithm_logo](https://user-images.githubusercontent.com/28296575/122872768-e2810600-d36b-11eb-840a-da30ac28347a.png)
+![tcp_2021_summer_algorithm_logo](https://user-images.githubusercontent.com/28296575/131130487-06c3ef84-878d-47c5-a888-0e55f12612ca.png)
 
 
 ### 진행
