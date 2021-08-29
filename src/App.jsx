@@ -1,5 +1,6 @@
 import logo from './logo.png';
 import ProblemSolveChart from './component/ProblemSolveChart';
+import StatCard from './component/StatCard';
 import './App.css';
 
 function App() {
@@ -66,6 +67,21 @@ function App() {
                         <p className="App-body">좋은 성적으로 코딩 테스트를 통과하신 모든 분들 축하드립니다!</p>
                         <p className="small-body">- 네이버웹툰, 토스, 와디즈, 올리브영 등</p>
                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    </div>
+                </header>
+            </section>
+            <section>
+                <header className="App-header-dark">
+                    <h1 className="White-title">Individual Stat</h1>
+                    <div className="Card-box center-align">
+                        <StatCard name={"이건우"} tier={"Platinum 4"} solved={320} classes={"5"} id={"lkw4357"}/>
+                        <StatCard name={"김도은"} tier={"Gold 3"} solved={205} classes={"4"} id={"rlaehdms4464"}/>
+                        <StatCard name={"김용래"} tier={"Gold 3"} solved={355} classes={"4"} id={"kyr9389"}/>
+                        <StatCard name={"임성국"} tier={"Gold 3"} solved={163} classes={"4"} id={"siathus"}/>
+                        <StatCard name={"이재원"} tier={"Gold 4"} solved={241} classes={"3"} id={"ljw2889"}/>
+                        <StatCard name={"김도현"} tier={"Gold 5"} solved={135} classes={"3"} id={"thack98"}/>
+                        <StatCard name={"김동원"} tier={"Silver 3"} solved={135} classes={"2"} id={"dodopoowon"}/>
+                        <StatCard name={"신용준"} tier={"Bronze 2"} solved={27} classes={"1"} id={"forest528"}/>
                     </div>
                 </header>
             </section>

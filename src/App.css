@@ -43,6 +43,13 @@ body {
   padding: 2rem;
 }
 
+.Card-box {
+  width: 100%;
+  height: 70%;
+  background-color: rgb(255 255 255 / 50%);
+  padding: 2rem;
+}
+
 .App-body {
   font-weight: normal;
   font-size: calc(10px + 1.3vmin);
