@@ -7,7 +7,7 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
+            <header className="App-header bg-ocean">
                 <div className="App-box fade-in">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>2021. 6. 23 ~ 8. 31</p>
@@ -94,6 +94,18 @@ function App() {
                         <StatCard name={"김동원"} tier={"Silver 3"} solved={135} classes={"2"} id={"dodopoowon"}/>
                         <StatCard name={"신용준"} tier={"Bronze 2"} solved={27} classes={"1"} id={"forest528"}/>
                     </div>
+                </header>
+            </section>
+            <section className="bg-ocean">
+                <header className="App-header-dark">
+                    <br/><br/><br/><br/><br/><br/>
+                    <div className="App-box center-align">
+                        <h1 className="Black-title">THE END</h1><br/>
+                        <p className="App-body">오늘부로 <strong>2021 TCP 여름 알고리즘 스터디</strong>가 모두 종료되었습니다.</p>
+                        <p className="App-body">남은 2021년도 알차게 마무리하시길 바랍니다!</p>
+                        <br/><br/><br/>
+                    </div>
+                    <br/><br/><br/>
                 </header>
             </section>
         </div>

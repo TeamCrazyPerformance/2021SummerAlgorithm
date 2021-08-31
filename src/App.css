@@ -14,7 +14,6 @@ body {
 }
 
 .App-header {
-  background-image: url("./img/background.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,6 +67,12 @@ body {
   font-size: calc(10px + 6vmin);
 }
 
+.Black-title {
+  color: #000000;
+  font-weight: bold;
+  font-size: calc(10px + 6vmin);
+}
+
 .left-align {
   text-align: left;
 }
@@ -83,6 +88,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.bg-ocean {
+  background-image: url("./img/background.jpg");
+}
+
 
 h5 {
   margin: 0;
