@@ -31,7 +31,7 @@ function App() {
                 <header className="App-header-dark">
                     <h1 className="White-title">Best Player : Problem Solve</h1>
                     <div className="App-box left-align">
-                        <p className="App-body">가장 많은 문제를 푼 사람은 <strong>이재원</strong>이고, <strong>132 문제</strong>를 해결하였습니다.</p>
+                        <p className="App-body">가장 많은 문제를 푼 사람은 <strong>이재원</strong>이고, <strong>151 문제</strong>를 해결하였습니다.</p>
                         <br/>
                         <ProblemSolveChart/>
                     </div>
