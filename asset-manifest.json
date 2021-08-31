@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/2021SummerAlgorithm/static/css/main.28fcad89.chunk.css",
+    "main.js": "/2021SummerAlgorithm/static/js/main.29c02393.chunk.js",
+    "main.js.map": "/2021SummerAlgorithm/static/js/main.29c02393.chunk.js.map",
+    "runtime-main.js": "/2021SummerAlgorithm/static/js/runtime-main.b70708ee.js",
+    "runtime-main.js.map": "/2021SummerAlgorithm/static/js/runtime-main.b70708ee.js.map",
+    "static/js/2.c67d4942.chunk.js": "/2021SummerAlgorithm/static/js/2.c67d4942.chunk.js",
+    "static/js/2.c67d4942.chunk.js.map": "/2021SummerAlgorithm/static/js/2.c67d4942.chunk.js.map",
+    "static/js/3.63d911c7.chunk.js": "/2021SummerAlgorithm/static/js/3.63d911c7.chunk.js",
+    "static/js/3.63d911c7.chunk.js.map": "/2021SummerAlgorithm/static/js/3.63d911c7.chunk.js.map",
+    "index.html": "/2021SummerAlgorithm/index.html",
+    "static/css/main.28fcad89.chunk.css.map": "/2021SummerAlgorithm/static/css/main.28fcad89.chunk.css.map",
+    "static/js/2.c67d4942.chunk.js.LICENSE.txt": "/2021SummerAlgorithm/static/js/2.c67d4942.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/2021SummerAlgorithm/static/media/background.dc50fac8.jpg",
+    "static/media/logo.4ea32286.png": "/2021SummerAlgorithm/static/media/logo.4ea32286.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b70708ee.js",
+    "static/js/2.c67d4942.chunk.js",
+    "static/css/main.28fcad89.chunk.css",
+    "static/js/main.29c02393.chunk.js"
+  ]
+}
