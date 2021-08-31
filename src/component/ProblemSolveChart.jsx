@@ -9,7 +9,7 @@ const ProblemSolveChart = () => {
                 labels: ['06.24', '07.08', '07.22', '08.05', '08.19', '08.31'],
                 datasets: [{
                     label: '이재원',
-                    data: [0, 20, 51, 73, 132, 151],
+                    data: [0, 20, 51, 73, 132, 152],
                     fill: false,
                     borderColor: 'rgb(124, 150, 77)',
                     tension: 0.1
@@ -23,14 +23,14 @@ const ProblemSolveChart = () => {
                 },
                 {
                     label: '김도현',
-                    data: [0, 42, 68, 95, 115, 126],
+                    data: [0, 42, 68, 95, 115, 127],
                     fill: true,
                     borderColor: 'rgb(75, 192, 192)',
                     tension: 0.1
                 },
                 {
                     label: '김용래',
-                    data: [9, 29, 55, 75, 100, 113],
+                    data: [9, 29, 55, 75, 100, 114],
                     fill: false,
                     borderColor: 'rgb(230, 126, 34)',
                     tension: 0.1

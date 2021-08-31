@@ -2,6 +2,8 @@
 
 ![tcp_2021_summer_algorithm_logo](https://user-images.githubusercontent.com/28296575/131130487-06c3ef84-878d-47c5-a888-0e55f12612ca.png)
 
+### 결과
+[결산 페이지 바로가기](https://teamcrazyperformance.github.io/2021SummerAlgorithm/)
 
 ### 진행
 일일 과제 : 매일 본인 수준에 맞는 알고리즘 문제를 풀고 인증합니다.

@@ -31,7 +31,7 @@ function App() {
                 <header className="App-header-dark">
                     <h1 className="White-title">Best Player : Problem Solve</h1>
                     <div className="App-box left-align">
-                        <p className="App-body">가장 많은 문제를 푼 사람은 <strong>이재원</strong>이고, <strong>151 문제</strong>를 해결하였습니다.</p>
+                        <p className="App-body">가장 많은 문제를 푼 사람은 <strong>이재원</strong>이고, <strong>152 문제</strong>를 해결하였습니다.</p>
                         <br/>
                         <ProblemSolveChart/>
                     </div>
@@ -41,7 +41,7 @@ function App() {
                 <header className="App-header-dark">
                     <h1 className="White-title">Best Player : Rating</h1>
                     <div className="App-box left-align">
-                        <p className="App-body">레이팅을 가장 많이 올린 사람은 <strong>김도현</strong>이고, <strong>856 포인트</strong>를 올렸습니다.</p>
+                        <p className="App-body">레이팅을 가장 많이 올린 사람은 <strong>김도현</strong>이고, <strong>864 포인트</strong>를 올렸습니다.</p>
                         <br/>
                         <RatingChart/>
                     </div>
@@ -85,12 +85,12 @@ function App() {
                 <header className="App-header-dark">
                     <h1 className="White-title">Individual Stat</h1>
                     <div className="Card-box center-align">
-                        <StatCard name={"이건우"} tier={"Platinum 4"} solved={320} classes={"5"} id={"lkw4357"}/>
-                        <StatCard name={"김도은"} tier={"Gold 3"} solved={205} classes={"4"} id={"rlaehdms4464"}/>
-                        <StatCard name={"김용래"} tier={"Gold 3"} solved={355} classes={"4"} id={"kyr9389"}/>
+                        <StatCard name={"이건우"} tier={"Platinum 4"} solved={322} classes={"5"} id={"lkw4357"}/>
+                        <StatCard name={"김도은"} tier={"Gold 2"} solved={210} classes={"4"} id={"rlaehdms4464"}/>
+                        <StatCard name={"김용래"} tier={"Gold 3"} solved={357} classes={"4"} id={"kyr9389"}/>
                         <StatCard name={"임성국"} tier={"Gold 3"} solved={163} classes={"4"} id={"siathus"}/>
-                        <StatCard name={"이재원"} tier={"Gold 4"} solved={241} classes={"3"} id={"ljw2889"}/>
-                        <StatCard name={"김도현"} tier={"Gold 5"} solved={135} classes={"3"} id={"thack98"}/>
+                        <StatCard name={"이재원"} tier={"Gold 4"} solved={243} classes={"3"} id={"ljw2889"}/>
+                        <StatCard name={"김도현"} tier={"Gold 4"} solved={137} classes={"3"} id={"thack98"}/>
                         <StatCard name={"김동원"} tier={"Silver 3"} solved={135} classes={"2"} id={"dodopoowon"}/>
                         <StatCard name={"신용준"} tier={"Bronze 2"} solved={27} classes={"1"} id={"forest528"}/>
                     </div>
