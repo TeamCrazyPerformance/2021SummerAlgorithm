@@ -1,7 +1,9 @@
 # 2021SummerAlgorithm
 
-![tcp_2021_summer_algorithm_logo](https://user-images.githubusercontent.com/28296575/122872768-e2810600-d36b-11eb-840a-da30ac28347a.png)
+![tcp_2021_summer_algorithm_logo](https://user-images.githubusercontent.com/28296575/131130487-06c3ef84-878d-47c5-a888-0e55f12612ca.png)
 
+### 결과
+[결산 페이지 바로가기](https://teamcrazyperformance.github.io/2021SummerAlgorithm/)
 
 ### 진행
 일일 과제 : 매일 본인 수준에 맞는 알고리즘 문제를 풀고 인증합니다.
@@ -19,6 +21,7 @@ https://solved.ac/class
 ### 참여자
 - 김도은
 - 김도현
+- 김동원
 - 김용래
 - 신용준
 - 이건우

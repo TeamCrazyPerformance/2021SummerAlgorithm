@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: black;
+}
+
+.App-header-dark {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: black;
+}
+
+.App-box {
+  width: 50%;
+  height: 70%;
+  background-color: rgb(255 255 255 / 50%);
+  padding: 2rem;
+}
+
+.Card-box {
+  width: 100%;
+  height: 70%;
+  background-color: rgb(255 255 255 / 50%);
+  padding: 2rem;
+}
+
+.App-body {
+  font-weight: normal;
+  font-size: calc(10px + 1.3vmin);
+  margin: 3px;
+}
+
+.small-body {
+  font-weight: normal;
+  font-size: calc(10px + 0.6vmin);
+  margin: 3px;
+}
+
+.White-title {
+  color: #777777;
+  font-weight: bold;
+  font-size: calc(10px + 6vmin);
+}
+
+.Black-title {
+  color: #000000;
+  font-weight: bold;
+  font-size: calc(10px + 6vmin);
+}
+
+.left-align {
+  text-align: left;
+}
+
+.bg-solved {
+  background-image: url("https://user-images.githubusercontent.com/28296575/130800829-79965293-3511-4ada-bda5-0ad5d054cff4.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.bg-company {
+  background-image: url("https://user-images.githubusercontent.com/28296575/131001985-5ef33510-1723-40f9-8288-f34d820cdaad.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-ocean {
+  background-image: url("./img/background.jpg");
+}
+
+
+h5 {
+  margin: 0;
+}
+
+img {
+  margin-top: 1rem;
+}
+
+.fade-in {
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

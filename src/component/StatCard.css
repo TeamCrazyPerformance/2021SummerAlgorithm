@@ -1,0 +1,65 @@
+.card {
+    display: inline-block;
+    width: 18%;
+    margin: 1.2rem;
+    padding: 0 1rem;
+    border-radius: 20px;
+}
+
+.cardName {
+    font-weight: normal;
+    font-size: calc(10px + 3vmin);
+    text-align: left;
+    margin: 1.5rem 0 0.5rem 1rem;
+    padding: 0;
+}
+
+.cardId {
+    font-weight: normal;
+    font-size: calc(10px + .5vmin);
+    text-align: right;
+}
+
+.cardTier {
+    display: block;
+    font-weight: normal;
+    font-size: calc(10px + 1vmin);
+    text-align: right;
+    margin: 0.5rem 1rem;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.cardSolved {
+    display: block;
+    font-weight: normal;
+    font-size: calc(10px + 1vmin);
+    text-align: right;
+    margin: 0.5rem 1rem;
+    padding: 0;
+}
+
+.cardClasses {
+    display: block;
+    font-weight: normal;
+    font-size: calc(10px + 1vmin);
+    text-align: right;
+    margin: 0.5rem 1rem 1rem 0;
+    padding: 0;
+}
+
+.bg-bronze {
+    background: linear-gradient( to right, #F09661 , #AD5600 );
+}
+
+.bg-silver {
+    background: linear-gradient( to right, #7F7CC9 , #435F7A );
+}
+
+.bg-gold {
+    background: linear-gradient( to right, #F3CA5A , #EDA010 );
+}
+
+.bg-platinum {
+    background: linear-gradient( to right, #86E5CF , #27E2A4 );
+}
