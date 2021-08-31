@@ -1,5 +1,6 @@
 import logo from './logo.png';
 import ProblemSolveChart from './component/ProblemSolveChart';
+import RatingChart from './component/RatingChart';
 import StatCard from './component/StatCard';
 import './App.css';
 
@@ -33,6 +34,16 @@ function App() {
                         <p className="App-body">가장 많은 문제를 푼 사람은 <strong>이재원</strong>이고, <strong>132 문제</strong>를 해결하였습니다.</p>
                         <br/>
                         <ProblemSolveChart/>
+                    </div>
+                </header>
+            </section>
+            <section>
+                <header className="App-header-dark">
+                    <h1 className="White-title">Best Player : Rating</h1>
+                    <div className="App-box left-align">
+                        <p className="App-body">레이팅을 가장 많이 올린 사람은 <strong>김도현</strong>이고, <strong>856 포인트</strong>를 올렸습니다.</p>
+                        <br/>
+                        <RatingChart/>
                     </div>
                 </header>
             </section>
