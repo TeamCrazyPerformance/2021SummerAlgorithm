@@ -19,8 +19,8 @@ function App() {
                 <header className="App-header-dark fade-in bg-solved">
                     <h1 className="White-title">70 Days</h1>
                     <div className="App-box">
-                        <p className="App-body">스터디가 진행되는 70일간 <strong>719개</strong>의 문제를 해결하였습니다.</p>
-                        <p className="App-body">1인당 하루 평균 <strong>1.28문제</strong>를 해결하였습니다.</p>
+                        <p className="App-body">스터디가 진행되는 70일간 <strong>805개</strong>의 문제를 해결하였습니다.</p>
+                        <p className="App-body">1인당 하루 평균 <strong>1.44문제</strong>를 해결하였습니다.</p>
                         <br/>
                         <p className="App-body">BOJ, Programmers, Codeground 에서 공부했습니다.</p>
                         <br/>
