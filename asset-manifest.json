@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/2021SummerAlgorithm/static/css/main.28fcad89.chunk.css",
-    "main.js": "/2021SummerAlgorithm/static/js/main.8612525c.chunk.js",
-    "main.js.map": "/2021SummerAlgorithm/static/js/main.8612525c.chunk.js.map",
+    "main.js": "/2021SummerAlgorithm/static/js/main.855a9c0a.chunk.js",
+    "main.js.map": "/2021SummerAlgorithm/static/js/main.855a9c0a.chunk.js.map",
     "runtime-main.js": "/2021SummerAlgorithm/static/js/runtime-main.b70708ee.js",
     "runtime-main.js.map": "/2021SummerAlgorithm/static/js/runtime-main.b70708ee.js.map",
     "static/js/2.c67d4942.chunk.js": "/2021SummerAlgorithm/static/js/2.c67d4942.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b70708ee.js",
     "static/js/2.c67d4942.chunk.js",
     "static/css/main.28fcad89.chunk.css",
-    "static/js/main.8612525c.chunk.js"
+    "static/js/main.855a9c0a.chunk.js"
   ]
 }
